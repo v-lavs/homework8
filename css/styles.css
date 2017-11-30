@@ -1,18 +1,26 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+body {
+    font: 400 16px/1.6 "Helvetica Neue", sans-serif;
+    color: #848484;
+}
 
+.conainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-
-
-
-
-
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
 
 /*-----------------header---------------*/
+
 .header {
     background: url(../img/header-bg-img.jpg);
     background-size: cover;
@@ -22,4 +30,3 @@
     overflow: hidden;
     color: #ffffff;
 }
-
