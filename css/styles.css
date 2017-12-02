@@ -151,23 +151,24 @@ body {
     width: 100%;
 }
 
-.link-icon-features {
+.icon-features {
     display: block;
     width: 98px;
     height: 98px;
     border-radius: 50%;
-    background: #2ecc71;
-    text-align: center;
-    padding: 26px;
-    text-decoration: none;
-    color: inherit;
+    background: #2ecc71 center no-repeat;
     margin: 0 auto 30px;
-    transition: 0.35s;
 }
 
-.link-icon-features:hover,
-.link-icon-features:focus {
-    opacity: .7;
+.icon-star {
+    background-image: url(../img/icon-star.png);
+}
+
+.icon-wheel {
+    background-image: url(../img/icon-wheel.png);
+}
+.icon-globe {
+    background-image: url(../img/icon-globe.png);
 }
 
 .card-features h3 {
@@ -180,12 +181,12 @@ body {
 .card-features .link-title {
     text-decoration: none;
     color: inherit;
-,    margin: 0 auto 30px;
+    margin: 0 auto 30px;
 }
 
 .card-features .link-title:hover,
 .card-features .link-title:focus{
-    opacity: .7;
+    color: #2ecc71;
 
 }
 
@@ -199,7 +200,7 @@ body {
 
 .notified-section {
     background: #e3e3e3;
-    padding: 61px 0;
+    padding: 62px 0 60px;
 }
 
 .notifid-form {
@@ -282,7 +283,7 @@ body {
 /*--------------reviews-section-----------------*/
 
 .reviews-section {
-    padding: 51px 0 29px;
+    padding: 52px 0 29px;
 }
 
 .container-blockquote {
@@ -296,7 +297,6 @@ body {
     padding: 0;
     margin: 0 auto 18px;
     max-width: 825px;
-    letter-spacing: 0.004em;
 }
 
 .autor-blockquote {
@@ -338,7 +338,7 @@ body {
 
 .list-link:after {
     right: -1px;
-    box-shadow: -1px 0 26px 98px #fff;
+    box-shadow: -2px 0 26px 18px #fff;
 }
 
 .blockquote-container-img .link-item{
@@ -376,7 +376,7 @@ body {
 /*--------------contact-section--------------*/
 
 .contact-section {
-    padding: 27px 0 36px 0;
+    padding: 27px 0 31px 0;
     margin: 0 auto;
     text-align: center;
 }
@@ -390,7 +390,7 @@ body {
 
 .contact-section p {
     padding: 0;
-    margin: 0 0 25px 0;
+    margin: 0 0 22px 0;
 }
 
 .contact-section .social-nav ul {
@@ -424,7 +424,7 @@ body {
 
 /*-------------------footer----------------------*/
 .footer {
-    padding: 52px 0 54px 0;
+    padding: 54px 0;
     background: #e3e3e3;
 }
 
@@ -452,6 +452,6 @@ body {
 }
 
 .nav-footer li a:hover {
-    opacity: .6;
+    color: #2ecc71;
 }
 
