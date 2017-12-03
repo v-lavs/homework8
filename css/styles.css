@@ -215,7 +215,9 @@ body {
     color: #222222;
 }
 .notifid-form p {
-    margin: 0 0 24px 0;
+    margin: 0 0 20px 0;
+    letter-spacing: 0.006em;
+    line-height: 1.65;
 }
 
 .form-group {
@@ -256,7 +258,7 @@ body {
 .btn-notified {
     display: inline-block;
     font:700 22px/0.8 "Raleway", sans-serif;
-    padding: 19px 40px 20px 34px;
+    padding: 20px 40px 18gpx 34px;
     color: #ffffff;
     background: #2ecc71;
     -webkit-appearance: none;
