@@ -112,6 +112,7 @@ body {
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
+    transition: .35s;
 }
 
 .link-header a:hover,
@@ -182,6 +183,7 @@ body {
     text-decoration: none;
     color: inherit;
     margin: 0 auto 30px;
+    transition: .35s;
 }
 
 .card-features .link-title:hover,
@@ -258,7 +260,7 @@ body {
 .btn-notified {
     display: inline-block;
     font:700 22px/0.8 "Raleway", sans-serif;
-    padding: 20px 40px 18gpx 34px;
+    padding: 20px 40px 18px 34px;
     color: #ffffff;
     background: #2ecc71;
     -webkit-appearance: none;
@@ -350,6 +352,7 @@ body {
 .link-item a {
     position: relative;
     display: block;
+    transition: .35s;
 }
 .link-item a:before {
     content: "";
